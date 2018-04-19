@@ -1,0 +1,13 @@
+void setup()
+  { 
+    //Inicializamos el pin digital 13 como salida. 
+    //Es donde irá conectado nuestro LED. 
+    pinMode(13,OUTPUT);
+  }
+void loop()
+  {
+    digitalWrite(13,HIGH); //Decimos que se encienda el LED
+    delay(1000); //Esperamos un segundo
+    digitalWrite(13,LOW); //Decimos que se apague el LED
+    LED delay(1000); //Esperamos un segundo
+  }
